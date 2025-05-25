@@ -2,12 +2,12 @@
 
 
 // make a immutable variable
-const a = 1
+const a = 1;
 
 // variables can have types
-const s = 'hello' // string (bunch of letters)
-const n = 123 // number (sometimes called int or float/double)
-const b = true // boolean – true/false (can be on/off)
+const s = 'hello'; // string (bunch of letters)
+const n = 123; // number (sometimes called int or float/double)
+const b = true; // boolean – true/false (can be on/off)
 
 // variables can come in lists/collections/sets (1-to-many values)
 const names = [
@@ -22,8 +22,8 @@ const age = [
 ]
 
 // arrays can be accessed numerically (0-based)
-const dave = names[0]
-const alex = names[1]
+const dave = names[0];
+const alex = names[1];
 
 
 
@@ -47,7 +47,7 @@ const people = [
         age: 40
     },
     
-]
+];
 
 const alexAsAPerson = people[0]
 console.log(`
