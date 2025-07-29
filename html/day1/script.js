@@ -40,3 +40,6 @@ class Calendar {
         }
     }
 }
+
+//this will be a search bar to type in dates
+//it should return by changing to calender to view that date
