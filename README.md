@@ -1,11 +1,10 @@
-# Playground 01
+# Playground
 
-Just a dumping ground for things. 
 
-# Getting Started
+### Projects
 
-Just run: 
-```bash
+1. HTML/day1
+run `npm run day1:html`
 
-node <file>
-```
+2. node/day1
+run `npm run day1:node`
