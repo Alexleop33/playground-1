@@ -4,19 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <style>
         body {
-            background-color: lightblue;
+            background-color: rgb(246, 246, 246);
         }
         h1 {
-            color: navy;
+            color: rgb(0, 0, 0);
+        }
+        h2 {
+            color: rgb(137, 0, 0);
         }
     </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1>Cotton Candy SlC</h1>
 
-    <p>Hello people of the World</p>
+    <p>Mother Daughter business to fund dance dreams! 
+        <br>Thanks for your support!</p>
+
+    <h2>Schedule times below</h2>
+
+
+    <p>Follow us on Instagram: <a href="https://www.instagram.com/cottoncandyslc/">@cottoncandyslc</a></p>
+</body>
+
+   <title>Basic Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .calendar {
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .calendar-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .month-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        .calendar-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .calendar-table th,
+        .calendar-table td {
+            width: 14.28%;
+            height: 40px;
+            text-align: center;
+            border: 1px solid #eee;
+            vertical-align: middle;
+        }
+
+        .calendar-table th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .calendar-table td {
+            background-color: #fafafa;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .calendar-table td:hover {
+            background-color: #e8f5e8;
+        }
+
+        .other-month {
+            color: #ccc;
+            background-color: #f9f9f9;
+        }
+
+        .today {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar">
+        <div class="calendar-header">
+            <h2 class="month-title">July 2025</h2>
+        </div>
+        
+        <table class="calendar-table">
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="other-month">29</td>
+                    <td class="other-month">30</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>28</td>
+                    <td class="today">29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td class="other-month">1</td>
+                    <td class="other-month">2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
